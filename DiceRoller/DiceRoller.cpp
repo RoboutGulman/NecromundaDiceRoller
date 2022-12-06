@@ -105,7 +105,7 @@ int main()
                                 for (int thirdSaveRoll = 1; thirdSaveRoll < 7; thirdSaveRoll++)
                                 {
                                     std::vector<int> saveRolls = {firstSaveRoll, secondSaveRoll, thirdSaveRoll};
-                                    int result = Ñalculation(rapidRoll, critRoll, woundRolls, saveRolls);
+                                    int result = Calculation(rapidRoll, critRoll, woundRolls, saveRolls);
                                     if (result == 0)
                                     {
                                         coutZeros++;
