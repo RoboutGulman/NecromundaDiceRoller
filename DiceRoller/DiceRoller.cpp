@@ -24,7 +24,7 @@ bool weaponIsWounded(int str, int t, int roll)
            (str <= t / 2 && roll >= 6);
 }
 
-int Ñalculation(int rapidRoll, int critRoll, std::vector<int> woundRolls, std::vector<int> saveRolls)
+int Calculation(int rapidRoll, int critRoll, std::vector<int> woundRolls, std::vector<int> saveRolls)
 {
     int numberOfShots = 1;
     int tempAp = ourCharacteristics.ap;
